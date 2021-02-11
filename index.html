@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container mt-3">
+        <div class="card">
+            <div class="card-body">
+                <form>
+                    <div class="form-row">                    
+                        <Label>Name</Label>
+                        <input type="text" class="form-control" id="infoName" placeholder="Name">                
+                        <Label>Surname</Label>
+                        <input type="text" class="form-control" id="infoSurname" placeholder="Surname">
+                        <Label>Adress</Label>
+                        <textarea class="form-control" id="infoAdress" placeholder="Adress"></textarea>                
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-lg addBtn mt-3">
+                        Add
+                    </button>                   
+                    </form>
+        </div>
+        </div>
+    </div>
+    <div id="infoCard" class="card mt-3">
+        <table class="table">
+            <tbody id="item-list">
+            </tbody>
+        </table>
+    </div>
+      
+      
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
